@@ -1,0 +1,4 @@
+<launch>
+    <node name="face" pkg="face" type="face.py" output="screen"/>
+    <arg name="fd_file" default="$(find face)/config/haarcascade_frontalface_default.xml"/>
+</launch>

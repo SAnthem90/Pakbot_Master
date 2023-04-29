@@ -1,0 +1,3 @@
+<launch>
+<node name="face_detection_video_publisher" pkg="face" type="face_detection_video_publisher.py" output="screen"/ >
+</launch>

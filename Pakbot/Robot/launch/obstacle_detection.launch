@@ -1,0 +1,3 @@
+<launch>
+<node name="obstacle_avoidane" pkg="pak_bot" type="obstacle_detction.py" output="screen" />
+</launch>
